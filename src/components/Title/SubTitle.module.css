@@ -1,0 +1,27 @@
+.titleStyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  .leftTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15vw;
+    padding: 0 20px;
+  }
+  
+  .subTitleFont{
+    color: black;
+    font-size: 22px;
+  }
+  
+  .csvDownload{
+    color: black;
+    margin-right: 10px;
+    text-decoration: none;
+  }

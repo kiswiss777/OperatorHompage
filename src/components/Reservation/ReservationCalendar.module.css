@@ -1,0 +1,82 @@
+.topCalendar{
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+
+.topLeft{
+  width: 20%;
+  height: 100%;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.topMiddle{
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.disabled{
+  display: flex;
+  justify-content: right;
+  color: #D3D3D3;
+}
+
+.valid{
+  display: flex;
+  justify-content: right;
+}
+
+.notValid{
+  display: flex;
+  justify-content: right;
+}
+
+.selected{
+  border: none;
+  background-color: #FFFFE0;
+  display: flex;
+  justify-content: right;
+}
+
+.topRight{
+  width: 20%;
+  height: 100%;
+}
+
+.fontStyle{
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.containerWrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  grid-template-rows: 30px repeat(6,1fr);
+  column-gap: 0px;
+  row-gap: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.container > div {
+  background-color: white;
+  border: 1px solid darkgrey;
+}

@@ -1,0 +1,19 @@
+.entireWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: palegreen;
+}
+
+.middleWrapper {
+    background-color: white;
+    border-radius: 30px;
+    width: 200px;
+    padding: 50px;
+}
+
+.buttonStyle{
+    justify-content: center;
+    align-items: center;
+}

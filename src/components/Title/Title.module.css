@@ -1,0 +1,29 @@
+.titleStyle{
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  top:0;  
+  background-color: #5D5D5D;
+}
+
+.leftTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15vw;
+  padding: 0 20px;
+  background-color: #353535;
+}
+
+.titleFont{
+  color: white;
+  font-size: 16px;
+}
+
+.logout{
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}

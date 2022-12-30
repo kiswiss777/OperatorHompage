@@ -1,0 +1,17 @@
+.SearchButton{
+    border: none;
+    padding: 10px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 2px;
+    margin-left: 2px;
+    color : black;
+  }
+
+  .locationStyle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+    padding: 0 20px;;
+  }
